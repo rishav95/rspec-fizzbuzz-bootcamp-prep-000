@@ -3,5 +3,6 @@
 
 
 def fizzbuzz arg 
-  
+  nil if arg % 3 !== 0 && arg % 5 !== 0
+  "#{arg % 3 == 0 ? "Fizz" : ""}#{arg % 5 == 0 ? "Buzz" : ""}"
 end
